@@ -1,0 +1,6 @@
+@author "JMonfort"
+VideoGen {
+	mandatory videoseq v1 "videoGenVideo/v1.mp4"
+	optional videoseq v2 "videoGenVideo/v2.mp4"
+	mandatory videoseq v3 "videoGenVideo/v4.mp4"
+}
