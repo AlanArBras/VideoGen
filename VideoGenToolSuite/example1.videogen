@@ -1,11 +1,8 @@
-@author "MIAGE 2 students"
+@author "JMonfort"
 VideoGen {
-	
-	mandatory videoseq v1 "/home/alan/Windows/M2_MIAGE_PRIVATE/IDM/TP/TP2/hello.mp4"
-	optional videoseq v2 "/home/alan/Windows/M2_MIAGE_PRIVATE/IDM/TP/TP2/v2.mp4"
+	mandatory videoseq v1 "videoGenVideo/small.mp4"
+	optional videoseq v2 "videoGenVideo/misterV.mp4"
 	alternatives v3 {
-		videoseq v31 "bla.mp4"
-		videoseq v32 "blabla.mp4"
+		 videoseq v31 "videoGenVideo/v1.mp4"
 	}
-	mandatory videoseq v4 "coucou.mp4"
 }

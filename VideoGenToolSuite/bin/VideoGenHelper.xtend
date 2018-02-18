@@ -19,5 +19,5 @@ class VideoGenHelper {
 		rs.save(new HashMap());
 	}
 	
-	
+
 }
