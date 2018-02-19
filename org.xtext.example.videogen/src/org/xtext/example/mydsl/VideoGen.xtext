@@ -96,8 +96,6 @@ Position :
 	'TOP' | 'BOTTOM' | 'CENTER'
 ;
 
-
-
 Filter : FlipFilter | NegateFilter | BlackWhiteFilter;
 
 BlackWhiteFilter: {BlackWhiteFilter}

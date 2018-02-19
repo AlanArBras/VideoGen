@@ -1,4 +1,4 @@
-package fr.binome.vtff
+package fr.huitel.monfort;
 
 import org.xtext.example.mydsl.videoGen.OptionalVideoSeq
 import org.xtext.example.mydsl.videoGen.VideoGeneratorModel
@@ -52,4 +52,5 @@ class VideoGenUtils {
 	def int getTotalOptionalNumber(){
 		return optionalNumber
 	}
+	
 }

@@ -1,8 +1,8 @@
 @author "JMonfort"
 VideoGen {
-	mandatory videoseq v1 "videoGenVideo/small.mp4"
-	optional videoseq v2 "videoGenVideo/misterV.mp4"
+	mandatory videoseq v1 "videoGenVideo/v2.mp4" {filter b&w text content 'Je suis un titre exemple'}
+	optional videoseq v2 "videoGenVideo/misterV.mp4" {probability 50 filter negate text content 'videoOptionelle'}
 	alternatives v3 {
-		 videoseq v31 "videoGenVideo/v1.mp4"
+		 videoseq v31 "videoGenVideo/v1.mp4" {filter flip horizontal text content 'videoAlternative'}
 	}
 }
