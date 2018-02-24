@@ -2,7 +2,7 @@
 
 <b>Instructions de base :</b>
 Réalisé sous Windows 10 avec ffmepg d'installé et ajouté dans les variables d'environnement. Si l'on souhaite lancer correctement les méthodes il est nécessaire de bien s'assurer de la présence de ffmepg dans les variables d'environnement.
-Les fichiers gif et thumbnails sont volontairement vides car il est nécessaires de lancer les méthodes pour y accueillir les images et gif générés.
+Les fichiers gif et thumbnails sont volontairement vides car il est nécessaire de lancer les méthodes pour y accueillir les images et gif générés.
 
 TP3, Q2 : On remarque que les tailles réelles obtenues sont inférieures à celles de size. Ainsi on peut en conclure que ffmpeg compresse les videos qu'il concatène.
 
